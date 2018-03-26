@@ -1,16 +1,19 @@
-﻿![alt Umi logo](https://raw.githubusercontent.com/CasperCBroeren/Umi/master/Umi.Core/assets/logoUmi.png)
-
-[![NuGet](https://img.shields.io/badge/Umi.Core-First%20release-green.svg)](https://www.nuget.org/packages/Umi.Core/1.0.0)
+# UMI  
 
 Because in application development your collection of outgoing urls can feel like a sea of uri's. These Urls aren't easily testable, so then Umi got invented, which is an endpoint manager. Or to put it different; it's like swagger but then for the url's that the application uses. 
 
-Umi is a lightweight approach for using urls in your application but register them collectively so they can be tested and retrieved with ease. Umi has an status page which serves html or JSON. This is handy for manual checks or alerting purposes.  Your (dev)ops will love it.
+Umi is a lightweight approach for using urls in your application but register them collectively so they can be tested and retrieved with ease. Umi has an status page which serves html or JSON. This is handy for manual checks or alerting purposes.  Your (dev)ops will love it. Umi is a Japanese word for sea.
 
-Umi is a Japanese girl name, meaning sea ;)
+
+[![NuGet](https://img.shields.io/badge/Umi.Core-First%20release-green.svg)](https://www.nuget.org/packages/Umi.Core/1.0.0)
+
+```
+Install-Package Install-Package Umi.Core
+```
 
 ![alt Umi status page](https://raw.githubusercontent.com/CasperCBroeren/Umi/master/screenshot1.png)
 
-### Use
+# Use
 First register the endpoint where the option LocatorUrl is optional incase you don't want the route at /umi. Also the authentication is optional but please make use of it anyway you like.
 
 ```csharp
